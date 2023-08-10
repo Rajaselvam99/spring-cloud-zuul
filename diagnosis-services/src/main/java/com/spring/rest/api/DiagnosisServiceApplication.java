@@ -21,7 +21,7 @@ public class DiagnosisServiceApplication {
 
 	@GetMapping("/getDiagnosis")
 	public String getDoctorService() {
-		return "Diagnosis microservice called...";
+		return "Diagnosis microservice executed called...";
 	}
 
 	public static void main(String[] args) {
