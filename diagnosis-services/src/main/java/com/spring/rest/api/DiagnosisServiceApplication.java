@@ -21,7 +21,8 @@ public class DiagnosisServiceApplication {
 
 	@GetMapping("/getDiagnosis")
 	public String getDoctorService() {
-		return "Diagnosis microservice executed called...";
+		
+		return "Checking the changed code are updated into the new branch...";
 	}
 
 	public static void main(String[] args) {
